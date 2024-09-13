@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<!-- DOCUMENT HEAD -->
+<head>
+  <title>Webdev practice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style/default.css">
+</head>
+
+<!-- WEBPAGE CONTENT -->
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Welcome to my pushed repository</h1>
+    <nav>
+      <p>navigation bar will go here</p>
+    </nav>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <!-- practicing form -->
+     <form action="./index.html" method="post">
+      <label for="username">Username</label>
+      <input type="text" placeholder="Enter your username" name="unsername" id="username" minlength="5" maxlength="16" required>
+      <input type="password" placeholder="Enter your password" name="user-pw" id="user-pw" required>
+     </form>
+    <!-- app/javascript testing -->
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script type="text/javascript">
+      const app = document.getElementById('app');
+      const header = document.createElement('h1');
+      const text = 'Develop. Preview. Ship.';
+      const headerContent = document.createTextNode(text);
+      header.appendChild(headerContent);
+      app.appendChild(header);
+    </script>
+    <!-- BABEL SCRIPT -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+      const domNode = document.getElementById('app');
+      const root = ReactDOM.createRoot(domNode);
+      root.render(<h1>Develop. Preview. Ship.</h1>);
+    </script>
+  </main>
+  <!-- FOOTER -->
+  <footer></footer>
+</body>
