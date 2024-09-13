@@ -1,5 +1,32 @@
+:root {
+    --background-color: #222;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #222;
+    background-color: var(--background-color) ;
     color: #ddd;
+}
+
+#navBar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    li {
+        list-style-type: none;
+        select {
+            appearance: none;
+            background-color: var(--background-color);
+            color: #00e;
+            text-decoration: underline;
+            font-size: medium;
+            border: none;
+            padding: 0 8px;
+        }
+    }
+}
+
+main {
+    display: block;
+    margin: 0 15vw;
 }
