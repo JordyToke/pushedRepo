@@ -35,14 +35,15 @@
   </nav>
   <!-- MAIN -->
   <main>
-    <h2>Practicing Forms</h2>
     <!-- practicing html forms -->
+    <h2>Practicing HTML Forms</h2>
     <form action="./index.html" method="post">
+      <label for="user-email">Email</label>
+      <input type="email" name="user-email" id="user-email" placeholder="user@mail.com">
       <label for="username">Username</label>
-      <input type="text" placeholder="Enter your username" name="unsername" id="username" minlength="5" maxlength="16" required>
-      <br />
+      <input type="text" placeholder="Your username" name="unsername" id="username" minlength="5" maxlength="16" required>
       <label for="user-pw">Password</label>
-      <input type="password" placeholder="Enter your password" name="user-pw" id="user-pw" required>
+      <input type="password" placeholder="Your password" name="user-pw" id="user-pw" required>
     </form>
     <!-- test area for BABEL jsx -->
     <div id="app"></div>

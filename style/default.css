@@ -30,3 +30,12 @@ main {
     display: block;
     margin: 0 15vw;
 }
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+input {
+    border: 2px inset;
+}
