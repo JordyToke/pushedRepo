@@ -15,6 +15,22 @@
     <h1>Welcome to my pushed repository</h1>
     <nav>
       <p>navigation bar will go here</p>
+      <ul>
+        <li>
+          <a href="#home" target="_self" >Home</a>
+        </li>
+        <li>
+          <a href="#" target="_self" >About</a>
+        </li>
+        <li>
+          <select onchange="location = this.options[this.selectedIndex].value;" id="course" name="Course">
+            <option value="" selected="selected">Course</option>
+            <option value="learning_bash.html">Bash</option>
+            <option value="learning_git.html">Git</option>
+            <option value="learning_html.html">HTML</option>
+          </select>
+        </li>
+      </ul>
     </nav>
   </header>
   <!-- MAIN -->
@@ -23,9 +39,11 @@
      <form action="./index.html" method="post">
       <label for="username">Username</label>
       <input type="text" placeholder="Enter your username" name="unsername" id="username" minlength="5" maxlength="16" required>
+      <br />
+      <label for="user-pw">Password</label>
       <input type="password" placeholder="Enter your password" name="user-pw" id="user-pw" required>
      </form>
-    <!-- app/javascript testing -->
+    <!-- test area for BABEL jsx -->
     <div id="app"></div>
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -37,7 +55,7 @@
       header.appendChild(headerContent);
       app.appendChild(header);
     </script>
-    <!-- BABEL SCRIPT -->
+    <!-- LOAD BABEL SCRIPT -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/jsx">
       const domNode = document.getElementById('app');
