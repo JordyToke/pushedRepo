@@ -30,6 +30,7 @@ This repository was made locally for the purpose of adding to GitHub remotely.
   git commit -m "created README"
   ```
 </details>
+
 ## Adding the repository to GitHub
 Now that we have created our repository we can go ahead and add it to GitHub.
 
