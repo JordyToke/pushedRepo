@@ -1,7 +1,6 @@
 # Push Repository
 This repository was made locally for the purpose of adding to GitHub remotely.
-## Creating a local repository
-<details open>
+## Creating a local repository <details open>
 <summary>First we must create a new directory and initialise it as a Git repository before we can add it to GitHub.</summary>
 
   1. Using bash create a new directory
@@ -30,8 +29,7 @@ This repository was made locally for the purpose of adding to GitHub remotely.
   ```
 </details>
 
-## Adding the repository to GitHub
-<details open>
+## Adding the repository to GitHub <details open>
 <summary>Now that we have created our repository we can go ahead and add it to GitHub.</summary>
 
 1. Add GitHub as our remote origin for the repository
