@@ -2,8 +2,7 @@
 This repository was made locally for the purpose of adding to GitHub remotely.
 ## Creating a local repository
 <details>
-<summary>how to create a local repository</summary>
-  First we must create a new directory and initialise it as a Git repository before we can add it to GitHub.
+<summary>First we must create a new directory and initialise it as a Git repository before we can add it to GitHub.</summary>
 
   1. Using bash create a new directory
   ```sh
@@ -32,7 +31,8 @@ This repository was made locally for the purpose of adding to GitHub remotely.
 </details>
 
 ## Adding the repository to GitHub
-Now that we have created our repository we can go ahead and add it to GitHub.
+<details>
+<summary>Now that we have created our repository we can go ahead and add it to GitHub.</summary>
 
 1. Add GitHub as our remote origin for the repository
  ```sh
@@ -44,3 +44,4 @@ Now that we have created our repository we can go ahead and add it to GitHub.
  ```
 3. Set a personal access token and copy it somewhere safe if you have not.
 4. Enter GitHub username and access token when prompted.
+</details>
