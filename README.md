@@ -2,6 +2,7 @@
 This repository was made locally for the purpose of adding to GitHub remotely.
 ## Creating a local repository
 <details>
+<summary>how to create a local repository</summary>
   First we must create a new directory and initialise it as a Git repository before we can add it to GitHub.
 
   1. Using bash create a new directory
