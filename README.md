@@ -1,34 +1,34 @@
 # Push Repository
 This repository was made locally for the purpose of adding to GitHub remotely.
+<details>
+  <summary>## Creating a local repository</summary>
+  First we must create a new directory and initialise it as a Git repository before we can add it to GitHub.
 
-## Creating a local repository
-First we must create a new directory and initialise it as a Git repository before we can add it to GitHub.
-
-1. Using bash create a new directory
- ```sh
- mkdir <my new repository>
- ```
-2. Navigate into the new directory
- ```sh
- cd <my new repository>
- ```
-3. Initialise the directory as a Git repository with default branch **main**
- ```sh
- git init -b main
- ```
-4. Create a new file
- ```sh
- echo "Welcome to my new repository" > README.md
- ```
-5. Add the file to be tracked by Git
- ```sh
- git add README.md
- ```
-6. Create a commit for our new file
- ```sh
- git commit -m "created README"
- ```
-
+  1. Using bash create a new directory
+  ```sh
+  mkdir <my new repository>
+  ```
+  2. Navigate into the new directory
+  ```sh
+  cd <my new repository>
+  ```
+  3. Initialise the directory as a Git repository with default branch **main**
+  ```sh
+  git init -b main
+  ```
+  4. Create a new file
+  ```sh
+  echo "Welcome to my new repository" > README.md
+  ```
+  5. Add the file to be tracked by Git
+  ```sh
+  git add README.md
+  ```
+  6. Create a commit for our new file
+  ```sh
+  git commit -m "created README"
+  ```
+</details>
 ## Adding the repository to GitHub
 Now that we have created our repository we can go ahead and add it to GitHub.
 
