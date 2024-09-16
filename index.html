@@ -37,7 +37,7 @@
   <main>
     <!-- practicing html forms -->
     <h2>Practicing HTML Forms</h2>
-    <form action="./index.html" method="post">
+    <form class="practice-form" action="./index.html" method="post">
       <label for="user-email">Email</label>
       <input type="email" name="user-email" id="user-email" placeholder="user@mail.com">
       <label for="username">Username</label>
@@ -46,6 +46,8 @@
       <input type="password" placeholder="Your password" name="user-pw" id="user-pw" required>
     </form>
     <!-- test area for BABEL jsx -->
+
+    <!-- v This Div is our applications domNode -->
     <div id="app"></div>
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -57,6 +59,7 @@
       header.appendChild(headerContent);
       app.appendChild(header);
     </script>
+
     <!-- LOAD BABEL SCRIPT -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/jsx">
@@ -66,5 +69,6 @@
     </script>
   </main>
   <!-- FOOTER -->
-  <footer></footer>
+  <footer>
+  </footer>
 </body>
