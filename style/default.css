@@ -8,6 +8,16 @@ body {
   color: #ddd;
 }
 
+a {
+  color: #99e;
+  &:hover {
+    color: #ccf;
+  }
+  &:active {
+    color: white;
+  }
+}
+
 #navBar ul {
   display: flex;
   flex-flow: row nowrap;
@@ -31,9 +41,10 @@ main {
   margin: 0 15vw;
 }
 
-form {
+.practice-form {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template: auto / repeat(2, 1fr);
+  gap: 16px 16px;
 }
 
 input {
